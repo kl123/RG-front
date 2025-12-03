@@ -4,5 +4,8 @@
       "@/*": ["./src/*"]
     }
   },
+  "vueCompilerOptions": {
+    "globalTypesPath": "./src/vue-global-types.d.ts"
+  },
   "exclude": ["node_modules", "dist"]
 }
