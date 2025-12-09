@@ -22,11 +22,6 @@
     <div class="right-section">
       <div class="header">
         <a href="/" class="back-link">← 返回首页</a>
-        <div class="header-icons">
-          <span class="icon">📞</span>
-          <span class="icon">⚙️</span>
-          <span class="icon">ℹ️</span>
-        </div>
       </div>
 
       <div class="form-container">
@@ -370,13 +365,18 @@ body {
   width: 65%;
   padding: 40px;
   overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .header {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   margin-bottom: 30px;
+  width: 100%;
+  max-width: 600px;
 }
 
 .back-link {
@@ -385,14 +385,11 @@ body {
   font-size: 14px;
 }
 
-.header-icons {
-  display: flex;
-  gap: 15px;
-  font-size: 18px;
-}
+
 
 .form-container {
   max-width: 600px;
+  width: 100%;
 }
 
 .form-title {
