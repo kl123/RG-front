@@ -27,6 +27,11 @@ const router = createRouter({
       name: 'management',
       component: managementView
     },
+      {
+      path: '/create-enterprise',
+      name: 'create-enterprise',
+      component: () => import('../views/CreateEnterprise.vue')
+    }
   ]
 })
 
